@@ -1,0 +1,22 @@
+{% set name = "rapifilt" %}
+{% set version = "2.0" %}
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  git_url: https://github.com/andvides/RAPIFILT.git
+  md5: 0411B008BF99DDBBD0EB26D933132CB7
+  
+build:
+  number: 1
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - zlib
+
+about:
+  home: https://github.com/andvides/RAPIFILT.git
+  license: GNU
+  summary: "RAPIFILT:RAPId FILTer is a quality control of DNA sequences"
