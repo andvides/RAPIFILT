@@ -1,9 +1,7 @@
 #!/bin/bash
-echo "rapifilt compilation"
-#export C_INCLUDE_PATH=${PREFIX}/include
-#export LIBRARY_PATH=${PREFIX}/lib
-
-make
+echo "selectFasta compilation"
+make CPP=${CXX}
 mkdir -p $PREFIX/bin
-cp rapifilt $PREFIX/bin
+cp selectFasta $PREFIX/bin
+chmod +x $PREFIX/bin/selectFasta
 echo "Installation successful"
