@@ -5,7 +5,7 @@
  *  RAPIFILT is a fast computational tool designed to trim sequences 
  *  using the quality scores of bases within individual read.
  *  
- *  Copyright (C) 2017 Benavides A.
+ *  Copyright (C) 2017 Benavides A. Cabarcas F, Alzate J.F.
  *  
  *  This program is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -20,7 +20,7 @@
  *  You should have received a copy of the GNU General Public License
  *  along with this program.  If not, see http://www.gnu.org/licenses/ .
  *   
- *  Version 2.0
+ *  Version 1.0
  ---------------------------------------------------------------*/
 #include "generic.h"
 #include "process_illumina_to_fastq.h"

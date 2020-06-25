@@ -31,12 +31,3 @@ depend: $(SRCS_cpp) $(SRCS_c)
 clean:
 	$(RM) *.o *~ $(MAIN)
 
-#g++ -g -Wall -O3   -c process_fastqFile.cpp  -o process_fastqFile.o
-#g++ -g -Wall -O3   -c process_illumina_to_fastq.cpp  -o process_illumina_to_fastq.o
-#g++ -g -Wall -O3   -c process_sff_to_fastq.cpp  -o process_sff_to_fastq.o
-#g++ -g -Wall -O3   -c generic.cpp  -o generic.o
-#g++ -g -Wall -O3   -c rapifilt.cpp  -o rapifilt.o
-#gcc -D__USE_BSD -g   -c sff.c  -o sff.o
-#g++ -g -Wall -O3 -o rapifilt process_fastqFile.o process_illumina_to_fastq.o process_sff_to_fastq.o generic.o rapifilt.o  sff.o -lboost_iostreams
-#g++ -g -Wall -O3 -o rapifilt process_fastqFile.o process_illumina_to_fastq.o process_sff_to_fastq.o generic.o rapifilt.o  sff.o 
-
