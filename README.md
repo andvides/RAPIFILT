@@ -5,9 +5,9 @@ bases and removes short sequences.
 --------------------------------------------------------------
 Installing 
 --------------------------------------------------------------
-cd RAPIFILT_v1.1
-make
-export PATH=$PATH:$(pwd)
+cd RAPIFILT_v1.1<br />
+make<br />
+export PATH=$PATH:$(pwd)<br />
 
 ---------------------------------------------------------------
 Running DATMA
