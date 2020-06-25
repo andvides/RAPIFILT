@@ -1,5 +1,5 @@
 # RAPIFILT
-RAPId FILTer (RAPIFILT) is a C program to filter DNA sequences. It removes lowquality
+RAPId FILTer (RAPIFILT) is a C program to filter DNA sequences. It trims lowquality
 bases and removes short sequences.
 
 --------------------------------------------------------------
